@@ -1,0 +1,17 @@
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code 設定（個人情報・メモリ含む）
+.claude/
+
+# PDF・生データ（顧客情報含む可能性あり）
+*.pdf
+*.xlsx
+*.csv
+
+# 環境変数・APIキー
+.env
+*.key
+credentials.json
